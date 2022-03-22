@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the Lights and Sound Game: Test your MemoryPage
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <h1 class="title">Lights and Sound: Test your Memory!</h1>
+
+        <img
+          <img src="https://cdn.glitch.global/d104b805-b8a3-435b-8006-4e4e2d29097c/Untitled%20design%20(2).png?v=1646594095307" alt="name" width="250" height="228" />
+        
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+          <h2>
+            Welcome to the poppin' game from the 80s: Light and Sound. This game was designed to test your memory.
+          </h2>
+          <p>
+            <strong>How to play:</strong> When you are ready to play, press Start.
+            The game will then start by changing the appearance of the color blocks and you will hear a sound based
+           on the secret pattern chosen by your computer. For the player, the object of the game is to repeat back 
+            the pattern of the computer. The player has to repeat the previous pattern by memory. If you
+            don't get it correct you will be brought back to the home screen, but you can always try again!
+          </p>
+          
+          <button id="startBtn" onclick="startGame()">
+                  Start
+          </button>
+          
+          <button id="stopBtn" class="hidden" onclick="stopGame()">
+            Stop
+          </button>
+          
+          <div id="gameButtonArea">
+            <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+            <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+            <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+            <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+          </div>
+          
+          <!-- ADD BUTTON HERE -->
+          
+          <!-- Once you've added the button from the readme, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+        </div>
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    <footer class="footer">
+      <div class="links"></div>
+    </footer>
+  </body>
+</html>
