@@ -4,7 +4,7 @@
 
 Submitted by: Diana Gonzalez-Argueta
 
-Time spent: 12 hours spent in total
+Time spent: 18 hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/knotty-rigorous-apogee)
 
@@ -34,29 +34,39 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [X] <3 Making the website aesthetically pleasing <3
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+
+![   Watch me beat the game here!  ](https://drive.google.com/file/d/1XMYbVqHSFmvOTCEYcsN-bzgnreZ-DfOa/view?usp=sharing)
+
+
+![  Watch me lose (on purpose) here  ](https://drive.google.com/file/d/1ienOgWWJBCuHMm0OWSrKSyqCLOnhjIOZ/view?usp=sharing)
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+https://stackoverflow.com/questions/55026293/google-chrome-javascript-issue-in-getting-user-audio-the-audiocontext-was-not
+https://forum.unity.com/threads/the-audiocontext-was-not-allowed-to-start-it-must-be-resumed-or-created-after-a-user-gesture-on-t.615352/
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong
+https://coolors.co/4effef-73a6ad-cccccc-d8a7ca-7752cb
+https://www.w3schools.com/html/html_images.asp
+https://www.canva.com/design/DAE6Ojs9mRk/ge3cwiOMJ5OhrHk6pLoMXA/edit
+and I also used the support Slack channel too :) 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+One of the biggest challenges I faced in creating this submission was that when a user made their first play in the game, after clicking on Start the game would begin with the first note and the user would repeat it back but then the game would stop. The button wouldn't go from Start to Stop, it would show the game still in progress. But the audio/lights would not resume after the user's first move in the game. I would say trying to fix this error was my most time-consuming issue and I couldn't figure out what the problem was. I had to look through my code line by line and realized the mistake was that I had a method() inside another method(). It was so relieving to find my mistake but it also made me feel silly for how miniscule the mistake was. In the process of finding my mistake I feel I've gotten to know the code really well.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+I wouldn't say I have any questions about web development after competing this submission. After working on this, I realize that web development just requires the will to learn and lots of patience because there are TONS of resources online for building cool different features.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
 
+If I were to work a few more hours on this project, I would love to play with the music that plays with the buttons to change the frequencies. I would also love to add "aesthetic" features like more pictures and maybe a moving spotlight feature. It would also be really cool to have tabs where this website could be available in different languages.
 
 
 ## Interview Recording URL Link
@@ -66,7 +76,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Diana Gonzalez-Argueta
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
