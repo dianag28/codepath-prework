@@ -49,12 +49,18 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 https://stackoverflow.com/questions/55026293/google-chrome-javascript-issue-in-getting-user-audio-the-audiocontext-was-not
+
 https://forum.unity.com/threads/the-audiocontext-was-not-allowed-to-start-it-must-be-resumed-or-created-after-a-user-gesture-on-t.615352/
+
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong
+
 https://coolors.co/4effef-73a6ad-cccccc-d8a7ca-7752cb
+
 https://www.w3schools.com/html/html_images.asp
+
 https://www.canva.com/design/DAE6Ojs9mRk/ge3cwiOMJ5OhrHk6pLoMXA/edit
-and I also used the support Slack channel too :) 
+
+and I also used the support [Slack](https://prework-codepath.slack.com/archives/C0372V54QE9/p1647478027900639) channel too :) 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
